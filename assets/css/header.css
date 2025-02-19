@@ -13,7 +13,7 @@
     right: 1rem;
     width: 2rem;
     height: 2rem;
-    background-image: url('assets/image/icons/3pontos.svg');
+    background-image: url('/portfolio/assets/image/icons/3pontos.svg');
     background-repeat: no-repeat;
     background-size: contain;
    
@@ -60,19 +60,19 @@
 
 
 .information .job::before{
-    background-image: url('assets/image/icons/profileIcon.svg');
+    background-image: url('/portfolio/assets/image/icons/profileIcon.svg');
 }
 
 .information .location::before{
-    background-image: url('assets/image/icons/location.svg');
+    background-image: url('/portfolio/assets/image/icons/location.svg');
 }
 
 .information .phone::before{
-    background-image: url('assets/image/icons/whatsapp.svg');
+    background-image: url('/portfolio/assets/image/icons/whatsapp.svg');
 }
 
 .information .email::before{
-    background-image: url('assets/image/icons/email.svg');
+    background-image: url('/portfolio/assets/image/icons/email.svg');
 }
 
 
