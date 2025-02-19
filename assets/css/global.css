@@ -18,7 +18,7 @@ body{
 
 .main::before{
     content: '';
-    background-image: url('assets/image/icons/bg-top.svg');
+    background-image: url('/portfolio/assets/image/icons/bg-top.svg');
     background-repeat: no-repeat;
     background-size: contain;
     position: fixed;
@@ -34,7 +34,7 @@ body{
 
 .main::after{
     content: '';
-    background-image: url('assets/image/icons/bg-top.svg');
+    background-image: url('/portfolio/assets/image/icons/bg-top.svg');
     background-repeat: no-repeat;
     background-size: contain;
     position: fixed;
