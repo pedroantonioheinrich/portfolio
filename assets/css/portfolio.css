@@ -1,0 +1,45 @@
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.portfolio li{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1rem 0;
+}
+
+
+.portfolio li .title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: .25rem;
+}
+.portfolio li .title.github::before{
+    display: inline-block;
+    content: '';
+    width: .75rem;
+    height: .75rem;
+    margin-right: .5rem;
+    background-image: url('/assets/image/icons/gitgub-icon.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.portfolio a{
+    padding-left: 1.5rem;
+}
+
+
+
