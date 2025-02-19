@@ -24,7 +24,7 @@
     width: .75rem;
     height: .75rem;
     margin-right: .5rem;
-    background-image: url('image/icons/ok-img.svg');
+    background-image: url('/portfolio/image/icons/ok-img.svg');
     background-repeat: no-repeat;
     background-size: contain;
 }
